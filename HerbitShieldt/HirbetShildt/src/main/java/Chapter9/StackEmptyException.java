@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Chapter6;
+package Chapter9;
 
 /**
  *
  * @author rosso
  */
-public class BWDemo {
-//    public static void main(String args[]) { 
-//    Backwards s = new Backwards("This is a test"); 
-// 
-//    s.backward(0); 
-//  } 
+public class StackEmptyException extends Exception{
+     public String toString() {  
+   return "\nStack is empty.";  
+  } 
 }

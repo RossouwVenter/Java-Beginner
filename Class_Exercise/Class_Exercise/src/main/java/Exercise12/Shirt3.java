@@ -9,7 +9,7 @@ package Exercise12;
  *
  * @author rosso
  */
-public class Shirt3 {
+public class Shirt3 extends Item3 {
     private char size;
     private char colorCode;
     
